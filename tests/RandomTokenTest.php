@@ -5,9 +5,9 @@ namespace Tests;
 use PHPUnit\Framework\TestCase;
 use Stayallive\RandomTokens\RandomToken;
 use PHPUnit\Framework\Attributes\DataProvider;
-use Stayallive\RandomTokens\Exceptions\InvalidTokenPrefixException;
 use Stayallive\RandomTokens\Exceptions\InvalidTokenFormatException;
 use Stayallive\RandomTokens\Exceptions\InvalidTokenLengthException;
+use Stayallive\RandomTokens\Exceptions\InvalidTokenPrefixException;
 use Stayallive\RandomTokens\Exceptions\InvalidTokenChecksumException;
 
 class RandomTokenTest extends TestCase
