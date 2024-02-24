@@ -4,6 +4,7 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/stayallive/random-tokens/ci.yaml?branch=main&style=flat-square)](https://github.com/stayallive/random-tokens/actions/workflows/ci.yaml)
 [![Total Downloads](https://img.shields.io/packagist/dt/stayallive/random-tokens.svg?style=flat-square)](https://packagist.org/packages/stayallive/random-tokens)
+[![codecov](https://codecov.io/gh/stayallive/random-tokens/graph/badge.svg?token=CA3C2VK4GS)](https://codecov.io/gh/stayallive/random-tokens)
 
 This package provides a simple way to generate prefixed random tokens inspired by the [GitHub token format](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/).
 
