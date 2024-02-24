@@ -35,7 +35,7 @@
     },
     "scripts": {
         "test": "vendor/bin/phpunit --stop-on-failure",
-        "test:ci": "vendor/bin/phpunit",
+        "test:ci": "vendor/bin/phpunit --coverage-clover=coverage.xml",
         "phpcs": "vendor/bin/php-cs-fixer fix",
         "phpcs:ci": "vendor/bin/php-cs-fixer fix --dry-run --diff"
     },

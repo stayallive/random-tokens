@@ -30,7 +30,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php }}
-          coverage: none
+          coverage: xdebug
           tools: composer:v2
 
       - name: Install Composer dependencies
@@ -38,3 +38,9 @@ jobs:
 
       - name: Run phpunit
         run: composer test:ci
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: stayallive/random-tokens
